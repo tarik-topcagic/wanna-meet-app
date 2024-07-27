@@ -1,6 +1,7 @@
 .navbar-brand {
   font-family: "Josefin Sans", sans-serif;
   font-size: 23px;
+  text-transform: capitalize;
 }
 
 .navbar-collapse.show {
