@@ -1,0 +1,31 @@
+.text-center {
+    margin-top: 100px;
+}
+
+.form-floating {
+    width: 100% !important;
+}
+.form-control {
+    width: 100% !important;
+}
+.container {
+    max-width: 100% !important;
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .form-floating {
+        width: 100% !important;
+    }
+    .form-control {
+        width: 100% !important;
+    }
+    hr.my-3 {
+        width: 100% !important;
+    }
+}
+
