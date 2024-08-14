@@ -1,0 +1,28 @@
+.responsive-input {
+    width: 100%;
+    max-width: 100%;
+}
+
+@media (max-width: 768px) {
+    .responsive-input input,
+    .responsive-input label,
+    .responsive-input .invalid-feedback {
+        font-size: 14px;
+    }
+
+    .responsive-input input {
+        padding: 12px;
+    }
+
+    .responsive-input label {
+        padding-left: 12px;
+        padding-top: 12px;
+    }
+
+    .responsive-input .invalid-feedback {
+        font-size: 12px;
+        margin-top: 5px;
+    }
+}
+
+

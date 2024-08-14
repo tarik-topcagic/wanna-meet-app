@@ -1,0 +1,45 @@
+.responsive-input {
+    max-width: 100%;
+}
+
+.responsive-input input {
+    width: 100%; 
+    box-sizing: border-box; 
+}
+
+@media (max-width: 768px) {
+    .responsive-form {
+        width:100%;
+    }
+
+    .responsive-input {
+        margin: 0; 
+        padding: 0; 
+    }
+
+    .responsive-input input,
+    .responsive-input label,
+    .responsive-input .invalid-feedback {
+        font-size: 14px;
+        width:100%;
+    }
+
+    .responsive-input input {
+        width: 100%;
+        padding: 12px;
+        margin: 0; 
+    }
+
+    .responsive-input label {
+        padding-left: 12px;
+        padding-top: 12px;
+        width: 100%; 
+    }
+
+    .responsive-input .invalid-feedback {
+        font-size: 12px;
+        margin-top: 5px;
+    }
+}
+
+
