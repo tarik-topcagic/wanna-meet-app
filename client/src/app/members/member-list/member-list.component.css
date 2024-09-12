@@ -1,0 +1,6 @@
+@media (max-width: 400px) {
+    .btn-grouped {
+        flex: 1 1 100%;
+        margin-bottom: 10px;
+    }
+}

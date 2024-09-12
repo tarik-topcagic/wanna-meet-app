@@ -1,7 +1,7 @@
 import { Component, HostListener, inject, OnDestroy, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { AccountService } from '../_services/account.service';
-import { NgClass, NgIf, NgStyle, TitleCasePipe } from '@angular/common';
+import { NgClass, NgIf, NgStyle } from '@angular/common';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { Router, RouterLink, RouterLinkActive } from '@angular/router';
 import { ToastrService } from 'ngx-toastr';
@@ -10,7 +10,7 @@ import { ToastrService } from 'ngx-toastr';
 @Component({
   selector: 'app-nav',
   standalone: true,
-  imports: [FormsModule, NgClass, NgIf, NgStyle, BsDropdownModule, RouterLink, RouterLinkActive, TitleCasePipe],
+  imports: [FormsModule, NgClass, NgIf, NgStyle, BsDropdownModule, RouterLink, RouterLinkActive],
   templateUrl: './nav.component.html',
   styleUrl: './nav.component.css'
 })
