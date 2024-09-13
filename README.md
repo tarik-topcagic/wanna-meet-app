@@ -40,12 +40,16 @@ Open the "appsettings.Development.json" file located in the API folder, and add 
 ### 5. Running the Backend
 Navigate to the backend folder API and run the .NET application:
 
+```bash
 dotnet run
+```
 
 ### 6. Running the Frontend
 Navigate to the client folder (Angular frontend) and run:
 
+```bash
 ng serve
+```
 
 Now, open your browser and go to http://localhost:4200 to access the frontend.
 
