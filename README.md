@@ -5,7 +5,8 @@ Wanna Meet? is a web application built using .NET and Angular that allows users 
 ## Requirements
 
 - Node.js
-- .NET SDK (version 8.0.304 or later)
+- .NET SDK (version 8.0.100)
+- Angular CLI (version 17.3.0 or later)
 - Visual Studio Code (or any code editor)
 
 ## Installation
@@ -18,6 +19,7 @@ Clone the project from GitHub by running the following command in your terminal:
 ```bash
  git clone https://github.com/tarik-topcagic/wanna-meet-app.git
 ```
+
 ### 2. Open the project in Visual Studio Code
 Open the project folder in Visual Studio Code or any other preferred editor.
 
@@ -27,11 +29,13 @@ Navigate to the client folder where the Angular frontend is located and run the 
 ```bash
 npm install
 ```
+
 If you encounter any dependency issues, you can use the following command to bypass version conflicts:
 
 ```bash
 npm install --legacy-peer-deps
 ```
+
 ### 4. Add the Token Key
 Open the "appsettings.Development.json" file located in the API folder, and add the following key:
 
