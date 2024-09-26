@@ -1,0 +1,28 @@
+.rounded-circle {
+    max-height: 50px;
+}
+
+.message-content {
+    font-size: 1rem;
+  }
+  .message-image {
+    width: 40px;
+    height: 40px;
+  }
+  
+  @media (max-width: 767.98px) {
+    .message-content {
+      font-size: 0.875rem;
+    }
+    .message-image {
+      width: 30px; 
+      height: 30px;
+    }
+    table {
+      font-size: 0.875rem; 
+    }
+    th, td {
+        padding: 20px;
+      }
+  }
+  
