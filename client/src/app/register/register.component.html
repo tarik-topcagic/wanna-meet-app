@@ -2,16 +2,20 @@
     <h2 class="text-center text-primary">Sign up</h2>
     <hr class="my-3 w-100">
 
-    <div class="mb-3 responsive-radio-group">
-        <label style="margin-right:10px;">I am a: </label>
-        <label class="form-check-label">
-            <input type="radio" class="form-check-input" value="male" formControlName="gender">Male
-        </label>
-        <label class="form-check-label" style="margin-left:12px;">
-            <input type="radio" class="form-check-input" value="female" formControlName="gender">Female
-        </label>
+    <div class="mb-3 d-flex align-items-center justify-content-center responsive-radio-group flex-nowrap">
+        <label class="me-2">I am a:</label>
+        
+        <div class="form-check me-3">
+            <input type="radio" class="form-check-input" value="male" formControlName="gender" id="male">
+            <label class="form-check-label" for="male">Male</label>
+        </div>
+        
+        <div class="form-check">
+            <input type="radio" class="form-check-input" value="female" formControlName="gender" id="female">
+            <label class="form-check-label" for="female">Female</label>
+        </div>
     </div>
-
+    
     <app-text-input [formControl]="$any(registerForm.controls['username'])"
     [label]="'Username'">
     </app-text-input>
