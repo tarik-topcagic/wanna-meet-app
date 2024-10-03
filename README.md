@@ -63,6 +63,9 @@ Now, open your browser and go to http://localhost:4200 to access the frontend.
 - Login with Test Users: If you want to test logging in, you can use following test user account:
   - Username: lisa
   - Password: Pa$$w0rd
+- Login as an admin: If you want as an admin to test the role change for users, you can use following admin account:
+  - Username: admin
+  - Password: Pa$$w0rd
 
 ## Questions and Issues
 If you have any questions or encounter any issues, please feel free to contact:
