@@ -53,5 +53,4 @@ public class UsersController(IUserRepository userRepository, IMapper mapper) : B
 
         return BadRequest("Failed to update the user");
     }
-
 }
