@@ -1,0 +1,21 @@
+
+
+/* Media queries for mobile devices */
+@media (max-width: 450px) {
+    /* Adjust font size for mobile devices */
+    .responsive-table th, 
+    .responsive-table td {
+        font-size: 14px;
+    }
+
+    /* Adjust button size for mobile devices */
+    .responsive-btn {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+
+    /* Add padding between rows for better touch interaction */
+    .responsive-table tr {
+        margin-bottom: 10px;
+    }
+}
